@@ -120,7 +120,7 @@ $ for var in AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN AWS_SECUR
      $sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
      $sudo apt-get update && sudo apt-get install terraform
 
-# Install Terraform on RHEL:
+# Install Terraform on RHEL
       **Install aws cli**
       sudo yum update -y
       sudo yum install curl unzip wget -y  
